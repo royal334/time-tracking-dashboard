@@ -1,0 +1,83 @@
+@import url("https://fonts.googleapis.com/css2?family=Rubik:ital,wght@0,300..900;1,300..900&display=swap");
+:root {
+  --Blue: hsl(246, 80%, 60%);
+  --Lightred-work: hsl(15, 100%, 70%);
+  --Softblue-play: hsl(195, 74%, 62%);
+  --Lightred-study: hsl(348, 100%, 68%);
+  --Limegreen-exercise: hsl(145, 58%, 55%);
+  --Violet-social: hsl(264, 64%, 52%);
+  --Softorange-selfcare: hsl(43, 84%, 65%);
+  --Verydarkblue: hsl(226, 43%, 10%);
+  --Darkblue: hsl(235, 46%, 20%);
+  --Desaturatedblue: hsl(235, 45%, 61%);
+  --PaleBlue: hsl(236, 100%, 87%);
+}
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+a {
+  text-decoration: none;
+}
+
+body {
+  background-color: var(--Verydarkblue);
+  font-family: "Rubik", sans-serif;
+}
+
+.container {
+  max-width: 1100px;
+  margin: 0 auto;
+  padding: 1.5rem;
+}
+
+.grid {
+  display: grid;
+  margin-top: 3rem;
+  gap: 1.5rem;
+}
+@media (min-width: 768px) {
+  .grid {
+    margin-top: 0;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    grid-template-columns: repeat(4, minmax(0, 1fr));
+    grid-template-rows: repeat(2, 1fr);
+  }
+}
+
+.row {
+  display: flex;
+  justify-content: space-between;
+}
+
+.avatar {
+  height: 50px;
+  width: 50px;
+}
+
+.card {
+  background-color: var(--Darkblue);
+  border-radius: 1rem;
+}
+.card__one div p {
+  color: white;
+}
+.card__one div p:nth-child(2) {
+  font-size: 1.5rem;
+}
+.card__one--top {
+  background-color: var(--Blue);
+  border-radius: 10px;
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+}
+.card__one--bottom p {
+  color: var(--PaleBlue);
+}/*# sourceMappingURL=styles.css.map */
