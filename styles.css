@@ -126,7 +126,14 @@ body {
   }
 }
 .card__one--bottom p {
+  cursor: pointer;
   color: var(--PaleBlue);
+}
+.card__one--bottom p:hover {
+  color: white;
+}
+.card__one--bottom p:active {
+  color: white;
 }
 @media (min-width: 768px) {
   .card__one--bottom p {
@@ -138,7 +145,7 @@ body {
 }
 .card__two--top {
   border-radius: 20px 20px 0 0;
-  height: 30%;
+  height: 20%;
   display: flex;
   justify-content: flex-end;
 }
@@ -146,7 +153,7 @@ body {
   padding: 1.5rem;
   border-radius: 20px;
   background-color: var(--Darkblue);
-  height: 70%;
+  height: 80%;
 }
 .card__two--bottom--details {
   margin-top: 1rem;
@@ -164,7 +171,7 @@ body {
 }
 .card__three--top {
   border-radius: 20px 20px 0 0;
-  height: 30%;
+  height: 20%;
   display: flex;
   justify-content: flex-end;
 }
@@ -172,7 +179,7 @@ body {
   padding: 1.5rem;
   border-radius: 20px;
   background-color: var(--Darkblue);
-  height: 70%;
+  height: 80%;
 }
 .card__three--bottom--details {
   margin-top: 1rem;
@@ -190,7 +197,7 @@ body {
 }
 .card__four--top {
   border-radius: 20px 20px 0 0;
-  height: 30%;
+  height: 20%;
   display: flex;
   justify-content: flex-end;
 }
@@ -198,7 +205,7 @@ body {
   padding: 1.5rem;
   border-radius: 20px;
   background-color: var(--Darkblue);
-  height: 70%;
+  height: 80%;
 }
 .card__four--bottom--details {
   margin-top: 1rem;
@@ -216,7 +223,7 @@ body {
 }
 .card__five--top {
   border-radius: 20px 20px 0 0;
-  height: 30%;
+  height: 20%;
   display: flex;
   justify-content: flex-end;
 }
@@ -224,7 +231,7 @@ body {
   padding: 1.5rem;
   border-radius: 20px;
   background-color: var(--Darkblue);
-  height: 70%;
+  height: 80%;
 }
 .card__five--bottom--details {
   margin-top: 1rem;
@@ -242,7 +249,7 @@ body {
 }
 .card__six--top {
   border-radius: 20px 20px 0 0;
-  height: 30%;
+  height: 20%;
   display: flex;
   justify-content: flex-end;
 }
@@ -250,7 +257,7 @@ body {
   padding: 1.5rem;
   border-radius: 20px;
   background-color: var(--Darkblue);
-  height: 70%;
+  height: 80%;
 }
 .card__six--bottom--details {
   margin-top: 1rem;
@@ -268,7 +275,7 @@ body {
 }
 .card__seven--top {
   border-radius: 20px 20px 0 0;
-  height: 30%;
+  height: 20%;
   display: flex;
   justify-content: flex-end;
 }
@@ -276,7 +283,7 @@ body {
   padding: 1.5rem;
   border-radius: 20px;
   background-color: var(--Darkblue);
-  height: 70%;
+  height: 80%;
 }
 .card__seven--bottom--details {
   margin-top: 1rem;

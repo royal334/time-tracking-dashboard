@@ -81,6 +81,8 @@ body{
      border-radius: 50%;
 }
 
+
+
 .card{
      background-color: var(--Darkblue);
      border-radius:20px;
@@ -98,10 +100,7 @@ body{
                color: var(--PaleBlue);
           }
 
-          // & div p:nth-child(2){
-          //      font-size: 1.5rem;
-          //      color: white;
-          // }
+
           &--top{
           background-color:var(--Blue);
           border-radius: 20px;
@@ -138,7 +137,16 @@ body{
                }
 
                p{
+                    cursor: pointer;
+                    transition: color 0.3 ease;
                     color: var(--PaleBlue);
+                    &:hover{
+                         color: white;
+                    }
+                    &:active{
+                         color: white;
+                    }
+                    
                @media (min-width:768px) {
                     margin-bottom: 1em;
                     
@@ -155,7 +163,7 @@ body{
           background-color: var(--Lightred-work);
           &--top{
                border-radius: 20px 20px 0 0;
-               height: 30%;
+               height: 20%;
                display: flex;
                justify-content: flex-end;
 
@@ -164,7 +172,7 @@ body{
                padding: 1.5rem;
                border-radius: 20px;
                background-color: var(--Darkblue);
-               height: 70%;
+               height: 80%;
 
                &--details{
                     margin-top: 1rem;
@@ -188,7 +196,7 @@ body{
           background-color: var(--Softblue-play);
           &--top{
                border-radius: 20px 20px 0 0;
-               height: 30%;
+               height: 20%;
                display: flex;
                justify-content: flex-end;
           }
@@ -197,7 +205,7 @@ body{
                padding: 1.5rem;
                border-radius: 20px;
                background-color: var(--Darkblue);
-               height: 70%;
+               height: 80%;
 
                &--details{
                     margin-top: 1rem;
@@ -223,7 +231,7 @@ body{
 
           &--top{
                border-radius: 20px 20px 0 0;
-               height: 30%;
+               height: 20%;
                display: flex;
                justify-content: flex-end;
           }
@@ -232,7 +240,7 @@ body{
                padding: 1.5rem;
                border-radius: 20px;
                background-color: var(--Darkblue);
-               height: 70%;
+               height: 80%;
 
                &--details{
                     margin-top: 1rem;
@@ -257,7 +265,7 @@ body{
 
           &--top{
                border-radius: 20px 20px 0 0;
-               height: 30%;
+               height: 20%;
                display: flex;
                justify-content: flex-end;
           }
@@ -266,7 +274,7 @@ body{
                padding: 1.5rem;
                border-radius: 20px;
                background-color: var(--Darkblue);
-               height: 70%;
+               height: 80%;
 
                &--details{
                     margin-top: 1rem;
@@ -291,7 +299,7 @@ body{
 
           &--top{
                border-radius: 20px 20px 0 0;
-               height: 30%;
+               height: 20%;
                display: flex;
                justify-content: flex-end;
           }
@@ -300,7 +308,7 @@ body{
                padding: 1.5rem;
                border-radius: 20px;
                background-color: var(--Darkblue);
-               height: 70%;
+               height: 80%;
 
                &--details{
                     margin-top: 1rem;
@@ -325,7 +333,7 @@ body{
 
           &--top{
                border-radius: 20px 20px 0 0;
-               height: 30%;
+               height: 20%;
                display: flex;
                justify-content: flex-end;
           }
@@ -334,7 +342,7 @@ body{
                padding: 1.5rem;
                border-radius: 20px;
                background-color: var(--Darkblue);
-               height: 70%;
+               height: 80%;
 
                &--details{
                     margin-top: 1rem;
