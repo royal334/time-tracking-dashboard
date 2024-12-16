@@ -131,6 +131,7 @@ body{
                display: flex;
                justify-content: space-between;
 
+
                @media (min-width:768px) {
                     display: block;
                     
@@ -161,6 +162,8 @@ body{
 
      &__two{
           background-color: var(--Lightred-work);
+          
+
           &--top{
                border-radius: 20px 20px 0 0;
                height: 20%;
